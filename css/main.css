@@ -10,68 +10,122 @@ Indice
     #* Media Queries.
 */
 
-
 /***************************
 *** #1 Estilos Generales. ***
 ****************************/
 
-
-
-
-
 /***FIN Estilos Generales***/
-
 
 /***************************
 *** #2 Header. ***
 ****************************/
 
-
-
-
-
 /***FIN Header***/
-
 
 /***************************
 *** #3 Footer. ***
 ****************************/
 
-
-
-
-
 /***FIN Footer***/
-
 
 /***************************
 *** #4 Home Main Section 1. ***
 ****************************/
+.container {
+  margin: 0 15px;
+}
+.section-team-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+}
 
+.team-title {
+  font-family: "Rubik", sans-serif;
+  color: #14d9c4;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 30px 0 15px 0;
+  height: 45px;
+  line-height: 45px;
+}
 
+.team-text {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
 
+.team-text-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.square-decoration {
+  width: 30px;
+  height: 30px;
+  transform: rotate(
+    45deg
+  ); /*No creo que esta sea la forma adecuada de colocar el cuadrado*/
+  background-color: rgb(172, 64, 64);
+  position: absolute; /*ES CON POSITION ABSOLUTE pero sigo sin saber hacerlo, creo que es que tengo que dar position a los padres, darle una vuelta*/
+  top: 93%;
+}
 
 /***FIN Home Main Section 1***/
-
 
 /***************************
 *** #5 Home Main Section 2. ***
 ****************************/
 
+.section-str-weak-main {
+  background-color: #dddddd;
+  padding: 30px 15px;
+}
 
+.str-weak-title {
+  font-family: "Rubik", sans-serif;
+  color: #099d8d;
+  font-size: 24px;
+  font-weight: 500;
+  height: 45px;
+  line-height: 45px;
+}
 
+.str-weak-text {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
 
+.strengths {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weakness-title {
+  margin-top: 30px;
+}
+
+.weakness {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /***FIN Home Main Section 2***/
-
 
 /***************************
 *** #5 Home Main Section 3. ***
 ****************************/
-
-
-
-
 
 /***FIN Home Main Section 3***/
