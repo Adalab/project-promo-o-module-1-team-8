@@ -10,61 +10,120 @@ Indice
     #* Media Queries.
 */
 
-
 /***************************
 *** #1 Estilos Generales. ***
 ****************************/
 
-
-
-
-
 /***FIN Estilos Generales***/
-
 
 /***************************
 *** #2 Header. ***
 ****************************/
+.header {
+  width: 320px;
+  height: 421px;
+  margin: 0 0 46px;
+  padding: 0 0 316px;
+}
 
+.nombre_header {
+  width: 320px;
+  height: 60px;
+  padding: 15px 80px;
+  opacity: 0.95;
+  background-color: #099d8d;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #fff;
+  position: fixed;
+}
 
+.ul_nav_header {
+  width: 320px;
+  height: 45px;
+  padding: 8px 17px 7px 16px;
+  opacity: 0.9;
+  background-color: #14d9c4;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  margin-top: 60px;
+}
 
+.menu_ul_nav_header {
+  box-sizing: border-box;
+  display: flex;
+}
 
+.altavoz {
+  width: 320px;
+  height: 316px;
+  position: absolute;
+  margin-top: 105px;
+}
+
+.rectangulo {
+  width: 290px;
+  height: 80px;
+  margin: 270px 15px 0px;
+  padding: 14px 15px 16px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 387px;
+}
+
+.lema {
+  width: 260px;
+  height: 50px;
+  padding: 9px 25px 17px;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: black;
+  text-align: center;
+  background-color: pink;
+}
 
 /***FIN Header***/
-
 
 /***************************
 *** #3 Footer. ***
 ****************************/
 
-
-
-
-
 /***FIN Footer***/
-
 
 /***************************
 *** #4 Home Main Section 1. ***
 ****************************/
 
-
-
-
-
 /***FIN Home Main Section 1***/
-
 
 /***************************
 *** #5 Home Main Section 2. ***
 ****************************/
 
-
-
-
-
 /***FIN Home Main Section 2***/
-
 
 /***************************
 *** #5 Home Main Section 3. ***
