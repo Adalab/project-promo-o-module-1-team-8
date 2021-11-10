@@ -19,6 +19,91 @@ Indice
 /***************************
 *** #2 Header. ***
 ****************************/
+.header {
+  width: 320px;
+  height: 421px;
+  margin: 0 0 46px;
+  padding: 0 0 316px;
+}
+
+.nombre_header {
+  width: 320px;
+  height: 60px;
+  padding: 15px 80px;
+  opacity: 0.95;
+  background-color: #099d8d;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #fff;
+  position: fixed;
+}
+
+.ul_nav_header {
+  width: 320px;
+  height: 45px;
+  padding: 8px 17px 7px 16px;
+  opacity: 0.9;
+  background-color: #14d9c4;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  margin-top: 60px;
+}
+
+.menu_ul_nav_header {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.altavoz {
+  width: 320px;
+  height: 316px;
+  position: absolute;
+  margin-top: 105px;
+}
+
+.rectangulo {
+  width: 290px;
+  height: 80px;
+  margin: 270px 15px 0px;
+  padding: 14px 15px 16px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 387px;
+}
+
+.lema {
+  width: 260px;
+  height: 50px;
+  padding: 9px 25px 17px;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: black;
+  text-align: center;
+  background-color: pink;
+}
 
 /***FIN Header***/
 
@@ -31,6 +116,7 @@ Indice
 /***************************
 *** #4 Home Main Section 1. ***
 ****************************/
+<<<<<<< HEAD
 .container {
   margin: 0 15px;
 }
@@ -77,6 +163,8 @@ Indice
   position: absolute; /*ES CON POSITION ABSOLUTE pero sigo sin saber hacerlo, creo que es que tengo que dar position a los padres, darle una vuelta*/
   top: 93%;
 }
+=======
+>>>>>>> d22ee01bdee3fa763d3cf27e06c3701001c0e990
 
 /***FIN Home Main Section 1***/
 
@@ -84,6 +172,7 @@ Indice
 *** #5 Home Main Section 2. ***
 ****************************/
 
+<<<<<<< HEAD
 .section-str-weak-main {
   background-color: #dddddd;
   padding: 30px 15px;
@@ -122,10 +211,68 @@ Indice
   align-items: center;
 }
 
+=======
+>>>>>>> d22ee01bdee3fa763d3cf27e06c3701001c0e990
 /***FIN Home Main Section 2***/
 
 /***************************
 *** #5 Home Main Section 3. ***
 ****************************/
+<<<<<<< HEAD
+=======
+.main_3_about_us {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px 15px 45px 15px;
+}
+.main_3_title{
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #099d8d;
+    margin-bottom: 30px;
+}
+.member_title{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.main_3_article p {
+    color: #54585a;
+    font-family: "Open sans";
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.member_img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #b8b8b9;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.main_3_ul_rrss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.main_3_ul_rrss .fab, .main_3_ul_rrss .fas {
+    color: #099d8d;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.separador_punto :before {
+    content: "·";
+    font-weight: bold;
+    font-size: 20px;
+    color: #099d8d;
+}
+
+
+
+>>>>>>> d22ee01bdee3fa763d3cf27e06c3701001c0e990
 
 /***FIN Home Main Section 3***/
