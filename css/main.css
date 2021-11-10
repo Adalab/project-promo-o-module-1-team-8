@@ -67,7 +67,6 @@ Indice
 }
 
 .menu_ul_nav_header {
-  box-sizing: border-box;
   display: flex;
 }
 
@@ -118,8 +117,6 @@ Indice
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:
-    #b8b8b9 solid 1px;
     background-color:#fff;
 }
 .footer span{
@@ -142,7 +139,7 @@ Indice
     font-stretch: normal;
     line-height: 20px;
     font-size: 14px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"Rubik", sans-serif;
 }
 
 .imgLogo{
@@ -158,6 +155,7 @@ Indice
 ****************************/
 .container {
   margin: 0 15px;
+  width:320px; /*Agregado para ajustarla*/
 }
 .section-team-main {
   display: flex;
@@ -212,6 +210,7 @@ Indice
 .section-str-weak-main {
   background-color: #dddddd;
   padding: 30px 15px;
+  width:320px;
 }
 
 .str-weak-title {
@@ -256,6 +255,7 @@ Indice
     text-align: center;
     background-color: #fff;
     padding: 30px 15px 45px 15px;
+    width:320px;
 }
 .main_3_title{
     font-family: "Rubik";
