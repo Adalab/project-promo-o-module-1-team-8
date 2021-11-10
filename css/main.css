@@ -67,7 +67,6 @@ Indice
 }
 
 .menu_ul_nav_header {
-  box-sizing: border-box;
   display: flex;
 }
 
@@ -110,6 +109,44 @@ Indice
 /***************************
 *** #3 Footer. ***
 ****************************/
+/*Made by Mariana*/
+.footer{
+    width:320px;
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+}
+.footer span{
+    width:172px;
+    height:20px;
+    color:#b8b8b9;
+    margin:0 74px;
+}
+.nav_footer ul{
+    width:114px;
+    height:60px;
+    opacity: 75%;
+    margin:20px 29px 30px;
+    font-weight: 500;
+    text-align:center;
+    text-transform: uppercase;
+}
+.list_footer a{
+    color:#54585a;
+    font-stretch: normal;
+    line-height: 20px;
+    font-size: 14px;
+    font-family:"Rubik", sans-serif;
+}
+
+.imgLogo{
+    width:115.9px;
+    height:45px;
+    margin:30px 28.1px 0 28px;
+}
 
 /***FIN Footer***/
 
@@ -118,6 +155,7 @@ Indice
 ****************************/
 .container {
   margin: 0 15px;
+  width:320px; /*Agregado para ajustarla*/
 }
 .section-team-main {
   display: flex;
@@ -172,6 +210,7 @@ Indice
 .section-str-weak-main {
   background-color: #dddddd;
   padding: 30px 15px;
+  width:320px;
 }
 
 .str-weak-title {
@@ -216,6 +255,7 @@ Indice
     text-align: center;
     background-color: #fff;
     padding: 30px 15px 45px 15px;
+    width:320px;
 }
 .main_3_title{
     font-family: "Rubik";
