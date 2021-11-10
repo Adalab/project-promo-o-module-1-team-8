@@ -69,7 +69,56 @@ Indice
 /***************************
 *** #5 Home Main Section 3. ***
 ****************************/
-
+.main_3_about_us {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px 15px 45px 15px;
+}
+.main_3_title{
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #099d8d;
+    margin-bottom: 30px;
+}
+.member_title{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.main_3_article p {
+    color: #54585a;
+    font-family: "Open sans";
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.member_img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #b8b8b9;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.main_3_ul_rrss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.main_3_ul_rrss .fab, .main_3_ul_rrss .fas {
+    color: #099d8d;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.separador_punto :before {
+    content: "·";
+    font-weight: bold;
+    font-size: 20px;
+    color: #099d8d;
+}
 
 
 
