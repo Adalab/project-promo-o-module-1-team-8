@@ -278,11 +278,12 @@ a {
   margin-bottom: 20px;
 }
 .member_img {
-  width: 200px;
-  height: 200px;
-  border: 5px solid #b8b8b9;
-  border-radius: 4px;
-  margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #b8b8b9;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    object-fit: cover;
 }
 .main_3_ul_rrss {
   display: flex;
