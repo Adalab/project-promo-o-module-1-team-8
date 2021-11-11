@@ -121,11 +121,10 @@ a {
   background-color: #fff;
 }
 .footer span {
-  width: 172px;
   height: 20px;
   color: #b8b8b9;
   margin: 0 74px;
-  font-family: "OpenSans" sans-serif;
+  font-family: "OpenSans", sans-serif;
 }
 .nav_footer ul {
   width: 114px;
