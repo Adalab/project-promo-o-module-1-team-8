@@ -24,11 +24,10 @@ Indice
   height: 421px;
 }
 /* tocado */
-.container_nav{
-position:fixed;
-width:100%;
-z-index: 999;
-
+.container_nav {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 .nombre_header {
   height: 60px;
@@ -45,8 +44,7 @@ z-index: 999;
   opacity: 0.95;
   background-color: #099d8d;
   width: 100%;
-  padding:15px 80px;
-
+  padding: 15px 80px;
 }
 
 .ul_nav_header {
@@ -64,14 +62,13 @@ z-index: 999;
   justify-content: space-around;
   align-items: center;
   top: 0;
-
 }
 
 .menu_ul_nav_header {
   display: flex;
 }
-a{
-  color:white;
+a {
+  color: white;
 }
 
 .altavoz {
@@ -94,7 +91,7 @@ a{
 .lema {
   width: 260px;
   height: 50px;
-  margin:0 auto;
+  margin: 0 auto;
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -112,44 +109,44 @@ a{
 /***************************
 *** #3 Footer. ***
 ****************************/
+/*Made by Mariana*/
 
-.footer{
-    width:100%;
-    height:250px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:#fff;
+.footer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
 }
-.footer span{
-    width:172px;
-    height:20px;
-    color:#b8b8b9;
-    margin:0 74px;
-    font-family:'OpenSans' sans-serif;
+.footer span {
+  height: 20px;
+  color: #b8b8b9;
+  margin: 0 74px;
+  font-family: "OpenSans", sans-serif;
 }
-.nav_footer ul{
-    width:114px;
-    height:60px;
-    opacity: 75%;
-    margin:20px 29px 30px;
-    font-weight: 500;
-    text-align:center;
-    text-transform: uppercase;
+.nav_footer ul {
+  width: 114px;
+  height: 60px;
+  opacity: 75%;
+  margin: 20px 29px 30px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
 }
-.list_footer a{
-    color:#54585a;
-    font-stretch: normal;
-    line-height: 20px;
-    font-size: 14px;
-    font-family:"Rubik", sans-serif;
+.list_footer a {
+  color: #54585a;
+  font-stretch: normal;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
 }
 
-.imgLogo{
-    width:115.9px;
-    height:45px;
-    margin:30px 28.1px 0 28px;
+.imgLogo {
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
 }
 
 /***FIN Footer***/
@@ -157,10 +154,7 @@ a{
 /***************************
 *** #4 Home Main Section 1. ***
 ****************************/
-.container {
-  margin: 0 15px;
-  width:320px; /*Agregado para ajustarla*/
-}
+
 .section-team-main {
   display: flex;
   flex-direction: column;
@@ -168,7 +162,7 @@ a{
   justify-content: center;
   padding: 15px;
   position: relative;
-  width:100%;
+  width: 100%;
 }
 
 .team-title {
@@ -206,16 +200,16 @@ a{
   flex-direction: column;
   background-color: #dddddd;
   padding: 30px 15px;
-  width:100%;
+  width: 100%;
 }
 
 .square-decoration {
   width: 30px;
   height: 30px;
   background-color: white;
-  position: relative; 
+  position: relative;
   align-self: center;
-  transform: translate(0, -150%) rotate(45deg); 
+  transform: translate(0, -150%) rotate(45deg);
 }
 
 .str-weak-title {
@@ -277,38 +271,36 @@ a{
     margin-bottom: 10px;
 }
 .main_3_article p {
-    color: #54585a;
-    font-family: "Open sans";
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+  color: #54585a;
+  font-family: "Open sans";
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 .member_img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #b8b8b9;
-    border-radius: 4px;
-    margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #b8b8b9;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 .main_3_ul_rrss {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
 }
-.main_3_ul_rrss .fab, .main_3_ul_rrss .fas {
-    color: #099d8d;
-    font-size: 20px;
-    padding: 0px 10px;
+.main_3_ul_rrss .fab,
+.main_3_ul_rrss .fas {
+  color: #099d8d;
+  font-size: 20px;
+  padding: 0px 10px;
 }
 .separador_punto :before {
-    content: "·";
-    font-weight: bold;
-    font-size: 20px;
-    color: #099d8d;
+  content: "·";
+  font-weight: bold;
+  font-size: 20px;
+  color: #099d8d;
 }
-
-
-
 
 /***FIN Home Main Section 3***/
