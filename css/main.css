@@ -22,34 +22,36 @@ Indice
 .header {
   width: 100%;
   height: 421px;
-  margin: 0 0 46px;
-  padding: 0 0 316px;
 }
+/* tocado */
+.container_nav{
+position:fixed;
+width:100%;
+z-index: 999;
 
+}
 .nombre_header {
-  width: 100%;
   height: 60px;
-  padding: 15px 80px;
-  opacity: 0.95;
-  background-color: #099d8d;
+  font-size: 15px;
+  font-weight: 500;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 15px;
-  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
   color: #fff;
-  position: fixed;
-  
+  opacity: 0.95;
+  background-color: #099d8d;
+  width: 100%;
+  padding:15px 80px;
+
 }
 
 .ul_nav_header {
   width: 100%;
   height: 45px;
-  padding: 7px 16px 7px 16px;
   opacity: 0.9;
   background-color: #14d9c4;
   text-transform: uppercase;
@@ -59,12 +61,10 @@ Indice
   color: #fff;
   display: flex;
   flex-direction: row;
-  list-style-type: none;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
   top: 0;
-  margin-top: 60px;
+
 }
 
 .menu_ul_nav_header {
@@ -76,10 +76,9 @@ a{
 
 .altavoz {
   width: 100%;
-  height: 300px;
+  height: 405px;
   object-fit: cover;
   position: absolute;
-  margin-top: 105px;
 }
 
 .rectangulo {
@@ -128,6 +127,7 @@ a{
     height:20px;
     color:#b8b8b9;
     margin:0 74px;
+    font-family:'OpenSans' sans-serif;
 }
 .nav_footer ul{
     width:114px;
