@@ -413,4 +413,16 @@ a {
 
 /*** FIN #* MEDIAQUERIES Main Section 3 ***/
 
+/*** #5 Home Main Section 2. ***
+****************************/
+@media all and (min-width:768px){
+  .section-str-weak-main{
+  }
+  .square-decoration{
+
+  }
+}
+
+
+
 /******** FIN #* MEDIAQUERIES ********/
