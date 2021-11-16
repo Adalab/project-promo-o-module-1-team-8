@@ -431,6 +431,19 @@ padding:0 15px 0 15px;
  
 }
 
+/*** #* MEDIAQUERIES footer ***/
+@media all and (min-width: 768px){
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_footer ul {
+  text-align: end;
+}
+}
 
+/*** #* FIN MEDIAQUERIES footer ***/
 
 /******** FIN #* MEDIAQUERIES ********/
