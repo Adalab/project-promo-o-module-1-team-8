@@ -250,24 +250,24 @@ a {
 *** #5 Home Main Section 3. ***
 ****************************/
 .main_3_about_us {
-    text-align: center;
-    background-color: #fff;
-    padding: 30px 15px 45px 15px;
-    width:100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 15px 45px 15px;
+  width: 100%;
 }
-.main_3_title{
-    font-family: "Rubik";
-    font-size: 24px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #099d8d;
-    margin-bottom: 30px;
+.main_3_title {
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #099d8d;
+  margin-bottom: 30px;
 }
-.member_title{
-    font-family: "Open Sans";
-    font-size: 20px;
-    font-weight: normal;
-    margin-bottom: 10px;
+.member_title {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 .main_3_article p {
   color: #54585a;
@@ -277,12 +277,12 @@ a {
   margin-bottom: 20px;
 }
 .member_img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #b8b8b9;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #b8b8b9;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  object-fit: cover;
 }
 .main_3_ul_rrss {
   display: flex;
@@ -304,3 +304,145 @@ a {
 }
 
 /***FIN Home Main Section 3***/
+
+/******** #* MEDIAQUERIES ********/
+
+/*** #* MEDIAQUERIES Main Section 3 ***/
+
+@media all and (min-width: 768px) {
+  .main_3_about_us {
+    padding: 45px 45px 64px 45px;
+  }
+
+  .main_3_title {
+    line-height: 45px;
+    margin-bottom: 41px;
+  }
+
+  .main_3_article.member_1,
+  .main_3_article.member_3 {
+    display: flex;
+  }
+
+  .main_3_article.member_2,
+  .main_3_article.member_4 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .member_2,
+  .member_3,
+  .member_4 {
+    margin-top: 60px;
+  }
+
+  .member_1_info,
+  .member_3_info {
+    margin-left: 31px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+  }
+
+  .member_2_info,
+  .member_4_info {
+    margin-right: 31px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  .member_title {
+    line-height: 45px;
+  }
+
+  .member_img {
+    min-width: 206px;
+    height: 206px;
+    margin-bottom: 0;
+  }
+
+  .main_3_article p {
+    max-width: 443px;
+    margin-bottom: 15px;
+  }
+
+  .main_3_ul_rrss {
+    margin-bottom: 0;
+  }
+
+  .main_3_ul_rrss .fab,
+  .main_3_ul_rrss .fas {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .separador_punto :before {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .main_3_about_us {
+    padding: 45px 138px 60px;
+  }
+
+  .member_2,
+  .member_3,
+  .member_4 {
+    margin-top: 60px;
+  }
+
+  .member_1_info,
+  .member_3_info {
+    margin-left: 45px;
+  }
+
+  .member_2_info,
+  .member_4_info {
+    margin-right: 45px;
+  }
+
+  .member_img {
+    min-width: 278px;
+    height: 278px;
+  }
+}
+
+/*** FIN #* MEDIAQUERIES Main Section 3 ***/
+
+/*** #5 Home Main Section 2. ***
+****************************/
+@media all and (min-width:768px){
+  .section-force{
+display:flex;
+  }
+  .weakness-title {
+    margin-top: 0;
+  }
+  .str-weak-title{
+    margin:0 12px 15px 0;
+  }
+  .str-weak-text{
+padding:0 15px 0 15px;
+  }
+ 
+}
+
+/*** #* MEDIAQUERIES footer ***/
+@media all and (min-width: 768px){
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_footer ul {
+  text-align: end;
+}
+}
+
+/*** #* FIN MEDIAQUERIES footer ***/
+
+/******** FIN #* MEDIAQUERIES ********/
