@@ -459,33 +459,5 @@ a {
     }
   }
 
-  /*** #* MEDIAQUERIES footer ***/
-  @media all and (min-width: 768px) {
-    .footer {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      position: relative;
-      padding: 0px 40px;
-    }
-    .footer__span {
-      position: absolute;
-      top: 30%;
-      margin-left: 38px;
-    }
-    .footer__ul {
-      text-align: end;
-    }
-    .footer__imgLogo {
-      order: -1;
-    }
-  }
-  @media all and (min-width: 1200px) {
-    .footer {
-      padding: 0px 100px;
-    }
-  }
 
-  /*** #* FIN MEDIAQUERIES footer ***/
 } /******** FIN #* MEDIAQUERIES ********/
