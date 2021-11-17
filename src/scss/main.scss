@@ -1,5 +1,4 @@
 /*@import 'core/variables';
-@import 'core/reset';
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';
@@ -7,6 +6,9 @@
 @import 'layout/footer';
 @import 'pages/index';
 */
+
+@import 'core/reset';
+
 
 /*
 Indice
@@ -526,4 +528,4 @@ a {
 
 /*** #* FIN MEDIAQUERIES footer ***/
 
-/******** FIN #* MEDIAQUERIES ********/
+}/******** FIN #* MEDIAQUERIES ********/
