@@ -6,7 +6,7 @@
 @import 'layout/footer';
 @import 'pages/index';
 */
-
+@import 'core/variables';
 @import "core/reset";
 
 /*
@@ -120,44 +120,9 @@ a {
   *** #3 Footer. ***
   ****************************/
 
-.footer {
-  width: 100%;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-}
-.footer span {
-  height: 20px;
-  color: #b8b8b9;
-  margin: 0 74px;
-  font-family: "OpenSans", sans-serif;
-}
-.nav_footer ul {
-  width: 114px;
-  height: 60px;
-  opacity: 75%;
-  margin: 20px 29px 30px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: uppercase;
-}
-.list_footer a {
-  color: #54585a;
-  font-stretch: normal;
-  line-height: 20px;
-  font-size: 14px;
-  font-family: "Rubik", sans-serif;
-}
+  @import './layout/footer';
 
-.imgLogo {
-  width: 115.9px;
-  height: 45px;
-  margin: 30px 28.1px 0 28px;
-}
-
+  
 /***FIN Footer***/
 
 /***************************
@@ -504,15 +469,15 @@ a {
       position: relative;
       padding: 0px 40px;
     }
-    .footer span {
+    .footer__span {
       position: absolute;
       top: 30%;
       margin-left: 38px;
     }
-    .nav_footer ul {
+    .footer__ul {
       text-align: end;
     }
-    .imgLogo {
+    .footer__imgLogo {
       order: -1;
     }
   }
