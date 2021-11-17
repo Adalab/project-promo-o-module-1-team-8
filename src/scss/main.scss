@@ -306,7 +306,7 @@ a {
   font-size: 20px;
   padding: 0px 10px;
 }
-.separador_punto :before {
+.separador_punto:before {
   content: "·";
   font-weight: bold;
   font-size: 20px;
@@ -443,7 +443,7 @@ a {
       font-size: 16px;
       line-height: 30px;
     }
-    .separador_punto :before {
+    .separador_punto:before {
       font-size: 16px;
     }
   }
@@ -521,7 +521,7 @@ a {
       padding: 0px 100px;
     }
   }
-}
-/*** #* FIN MEDIAQUERIES footer ***/
 
-/******** FIN #* MEDIAQUERIES ********/
+  /*** #* FIN MEDIAQUERIES footer ***/
+  /******** FIN #* MEDIAQUERIES ********/
+}
