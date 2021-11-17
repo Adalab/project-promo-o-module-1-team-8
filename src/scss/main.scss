@@ -245,7 +245,7 @@ a {
 }
 
 .weakness-title {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .weakness {
@@ -481,17 +481,25 @@ a {
   ****************************/
   @media all and (min-width: 768px) {
     .section-force {
-      display: flex;
+    display:flex;
+    height:250px;
     }
     .weakness-title {
       margin-top: 0;
     }
     .str-weak-title {
-      margin: 0 12px 15px 0;
+      padding: 0 12px 15px 0;
     }
-    .str-weak-text {
-      padding: 0 15px 0 15px;
+    .str-weak-text{
+      width:388px;
     }
+    .strengths-text{
+      padding-right:10px;
+    }
+    .weakness{
+      padding-left:30px;
+    }
+   
   }
 
   /*** #* MEDIAQUERIES footer ***/
