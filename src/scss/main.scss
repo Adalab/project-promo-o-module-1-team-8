@@ -370,8 +370,7 @@ a {
       position: absolute;
       opacity: 0.8;
 }
-
-  }
+}
 
 
 /*** #* MEDIAQUERIES Main Section 3 ***/
@@ -516,14 +515,11 @@ a {
   }
   .imgLogo {
     order: -1;
-  }
-}
+  }}
 @media all and (min-width: 1200px) {
   .footer {
     padding: 0px 100px;
   }
-}
+}}
 
 /*** #* FIN MEDIAQUERIES footer ***/
-
-/******** FIN #* MEDIAQUERIES ********/
