@@ -1,5 +1,4 @@
 /*@import 'core/variables';
-@import 'core/reset';
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';
@@ -7,7 +6,9 @@
 @import 'layout/footer';
 @import 'pages/index';
 */
+
 @import 'core/reset';
+
 /*
 Indice
     #1 Estilos Generales.
@@ -521,5 +522,4 @@ a {
     padding: 0px 100px;
   }
 }}
-
-/*** #* FIN MEDIAQUERIES footer ***/
+/******** FIN #* MEDIAQUERIES ********/
