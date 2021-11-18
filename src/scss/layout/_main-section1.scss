@@ -1,0 +1,94 @@
+/***************************
+  *** #4 Home Main Section 1. ***
+  ****************************/
+.section-team-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .team-title {
+    font-family: "Rubik", sans-serif;
+    color: #14d9c4;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 30px 0 15px 0;
+    height: 45px;
+    line-height: 45px;
+  }
+  
+  .team-text {
+    font-family: "OpenSans", sans-serif;
+    color: #54585a;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .team-text-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /***FIN Home Main Section 1***/
+  
+  /***************************
+    *** #5 Home Main Section 2. ***
+    ****************************/
+  
+  .section-str-weak-main {
+    display: flex;
+    flex-direction: column;
+    background-color: #dddddd;
+    padding: 30px 15px;
+    width: 100%;
+  }
+  
+  .square-decoration {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    align-self: center;
+    transform: translate(0, -150%) rotate(45deg);
+  }
+  
+  .str-weak-title {
+    font-family: "Rubik", sans-serif;
+    color: #099d8d;
+    font-size: 24px;
+    font-weight: 500;
+    height: 45px;
+    line-height: 45px;
+  }
+  
+  .str-weak-text {
+    font-family: "OpenSans", sans-serif;
+    color: #54585a;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .strengths {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weakness-title {
+    margin-top: 30px;
+  }
+  
+  .weakness {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /***FIN Home Main Section 2***/
