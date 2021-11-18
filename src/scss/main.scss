@@ -480,8 +480,16 @@ a {
   /*** #5 Home Main Section 2. ***
   ****************************/
   @media all and (min-width: 768px) {
+    .section-team-main{
+     padding:0 45px 44px 45px;
+    }
+    .section-str-weak-main{
+      padding-left:45px;
+      padding-right:45px;
+    }
     .section-force {
     display:flex;
+    justify-content: space-around;
     height:250px;
     }
     .weakness-title {
@@ -496,10 +504,6 @@ a {
     .strengths-text{
       padding-right:10px;
     }
-    .weakness{
-      padding-left:30px;
-    }
-   
   }
 
   /*** #* MEDIAQUERIES footer ***/
@@ -531,4 +535,5 @@ a {
   }
 
   /*** #* FIN MEDIAQUERIES footer ***/
-} /******** FIN #* MEDIAQUERIES ********/
+  /******** FIN #* MEDIAQUERIES ********/
+}
