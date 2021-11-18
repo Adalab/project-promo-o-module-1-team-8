@@ -92,3 +92,30 @@
   }
   
   /***FIN Home Main Section 2***/
+
+  @media all and (min-width: 768px) {
+    .section-team-main{
+     padding:0 45px 44px 45px;
+    }
+    .section-str-weak-main{
+      padding-left:45px;
+      padding-right:45px;
+    }
+    .section-force {
+    display:flex;
+    justify-content: space-around;
+    height:250px;
+    }
+    .weakness-title {
+      margin-top: 0;
+    }
+    .str-weak-title {
+      padding: 0 12px 15px 0;
+    }
+    .str-weak-text{
+      width:388px;
+    }
+    .strengths-text{
+      padding-right:10px;
+    }
+  }
