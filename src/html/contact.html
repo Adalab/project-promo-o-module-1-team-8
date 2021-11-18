@@ -27,7 +27,7 @@
       crossorigin="anonymous"
     ></script>
     <!--<link rel="stylesheet" href="./assets/css/reset.css">-->
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
     <title>Las 4 Fantásticas</title>
   </head>
   <body>
@@ -62,41 +62,7 @@
         </p>
         <p>Todos los campos marcados con * son obligatorios</p>
       </section>
-      <form action="https://formspree.io/f/xnqleleb" method="post">
-        <label for="name">Nombre completo *
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Nombre..."
-          pattern="^[a-zA-Z]{1-50}$"
-          required
-        />
-      </label>
-        <label for="mail">Email *
-        <input
-          type="email"
-          id="mail"
-          name="mail"
-          placeholder="nombre.apellidos@mail.com"
-          required
-        />
-      </label>
-    </label>
-    <label for="phone">Teléfono
-    <input
-      type="tel"
-      id="phone"
-      name="phone"
-      placeholder="Ej: 123456789"
-      pattern="^[0-9]{9}$"
-    />
-  </label>
-  <label for="message">Mensaje *
-    <textarea name="message" id="message" cols="30" rows="10" placeholder="¿Qué necesitas?" required></textarea>
-  </label>
-  <input type="submit" value="enviar">
-      </form>
+      <include src="./partials/form.html"></include>
     </main>
     <include src="./partials/footer.html"></include>
   </body>

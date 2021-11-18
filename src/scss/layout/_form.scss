@@ -1,0 +1,55 @@
+.form_container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin: 58px 15px 60px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  &__label {
+    font-size: 14px;
+    color: $colorTextPpal;
+    line-height: 19px;
+    font-family: $fontText;
+  }
+  &__input {
+    min-width: 290px;
+    height: 45px;
+    border: solid #b8b8b9 1px;
+    padding-left: 15px;
+    margin: 7px 0 13px;
+    &::placeholder {
+      font-size: 14px;
+      color: #b8b8b9;
+      font-family: $fontText;
+    }
+    &--textArea {
+      height: 105px;
+      resize: none;
+      font-size: 14px;
+      font-family: $fontText;
+      padding-top: 7px;
+    }
+    &--btn {
+      margin-top: 30px;
+      width: 290px;
+      align-self: center;
+      text-transform: uppercase;
+      font-family: $fontText;
+      font-size: 16px;
+      font-weight: 600;
+      color: $colorTextHeader;
+      background-color: $colorPpal;
+      border-radius: 4px;
+      border: none;
+      padding: 0;
+    }
+  }
+}
+
+.star {
+  color: $colorScnd;
+  font-weight: bolder;
+}
