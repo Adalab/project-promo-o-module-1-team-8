@@ -8,20 +8,20 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  @media(min-width:1200px){
+  /*@media(min-width:1200px){
     width:601px;
     align-items: center;
-  }
+  }*/
   &__label {
     font-size: 14px;
     color: $colorTextPpal;
     line-height: 19px;
     font-family: $fontText;
-    @media(min-width:1200px){
+   /* @media(min-width:1200px){
 display:flex;
 align-items: flex-end;
 width:601px;
-    }
+    }*/
   }
   &__input {
     min-width: 290px;
@@ -29,9 +29,9 @@ width:601px;
     border: solid #b8b8b9 1px;
     padding-left: 15px;
     margin: 7px 0 13px;
-    @media(min-width:1200px){
+    /*@media(min-width:1200px){
       width:601px;
-    }
+    }*/
     &::placeholder {
       font-size: 14px;
       color: #b8b8b9;
@@ -65,6 +65,4 @@ width:601px;
   color: $colorScnd;
   font-weight: bolder;
 }
-
-/*alineando email and tel*/
 
