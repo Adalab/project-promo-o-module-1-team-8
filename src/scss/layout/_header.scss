@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  height: 421px;
+}
+.container_nav {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+  @media all and (min-width: 768px) {
+    height: 60px;
+    display: flex;
+    background-color: $colorPpal;
+    justify-content: space-between;
+  }
+}
+.nombre_header {
+  height: 60px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: $fontTitle;
+  text-transform: uppercase;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #fff;
+  opacity: 0.95;
+  background-color: $colorPpal;
+  width: 100%;
+  padding: 15px 80px;
+
+  @media all and (min-width: 768px) {
+    height: 60px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 0px 15px 45px;
+  }
+  @media all and (min-width: 1200px) {
+    height: 60px;
+    padding: 15px 0px 15px 142px;
+  }
+}
+
+.ul_nav_header {
+  width: 100%;
+  height: 45px;
+  opacity: 0.9;
+  background-color: $colorScnd;
+  text-transform: uppercase;
+  font-family: $fontTitle;
+  font-size: 15px;
+  font-weight: 500;
+  color: $colorTextHeader;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  @media all and (min-width: 768px) {
+    height: 60px;
+    background-color: $colorPpal;
+    width: 100%;
+    padding: 15px 45px 15px 0px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 16px 138px 14px 0px;
+  }
+}
+
+.menu_ul_nav_header {
+  display: flex;
+  @media all and (min-width: 768px) {
+    padding: 0px 0px 0px 20px;
+  }
+}
+a {
+  color: $colorTextHeader;
+}
+
+.altavoz {
+  width: 100%;
+  height: 405px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.rectangulo {
+  width: 90%;
+  height: 80px;
+  margin: 270px 20px 0px;
+  padding: 14px 15px 16px;
+  background-color: $colorTextHeader;
+  position: absolute;
+  margin-top: 387px;
+  @media all and (min-width: 768px) {
+    width: 60%;
+    margin: 330px 281px 0px 46px;
+    padding: 14px 15px 16px;
+    position: absolute;
+    opacity: 0.8;
+  }
+  @media all and (min-width: 1200px) {
+    width: 60%;
+    margin: 325px 488px 0px 138px;
+    padding: 14px 15px 16px;
+    position: absolute;
+    opacity: 0.8;
+  }
+}
+
+.lema {
+  width: 260px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: $colorTextHeader;
+  font-family: $fontText;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: $colorTextScnd;
+  text-align: center;
+}
