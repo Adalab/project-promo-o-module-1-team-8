@@ -1,3 +1,8 @@
+.container_who_we_are {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .who_we_are {
   text-align: center;
   background-color: $colorTextHeader;
@@ -13,6 +18,7 @@
   }
   @media (min-width: 768px) {
     padding: 45px 45px 64px 45px;
+    max-width: 950px;
     &__title {
       line-height: 45px;
       margin-bottom: 41px;
@@ -48,6 +54,7 @@
   }
   @media (min-width: 1200px) {
     padding: 45px 138px 60px;
+    max-width: 1300px;
     &__member2,
     &__member3,
     &__member4 {
