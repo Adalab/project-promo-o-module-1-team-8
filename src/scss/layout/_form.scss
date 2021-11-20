@@ -8,8 +8,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  @media(min-width:1200px){
-    width:601px;
+  @media (min-width: 768px) {
+    width: 442px;
+  }
+  @media (min-width: 1200px) {
+    width: 601px;
     align-items: center;
   }
   &__label {
@@ -17,10 +20,10 @@
     color: $colorTextPpal;
     line-height: 19px;
     font-family: $fontText;
-  @media(min-width:1200px){
-display:flex;
-align-items: flex-end;
-width:601px;
+    @media (min-width: 1200px) {
+      display: flex;
+      align-items: flex-end;
+      width: 601px;
     }
   }
   &__input {
@@ -29,8 +32,8 @@ width:601px;
     border: solid #b8b8b9 1px;
     padding-left: 15px;
     margin: 7px 0 13px;
-  @media(min-width:1200px){
-      width:601px;
+    @media (min-width: 1200px) {
+      width: 601px;
     }
     &::placeholder {
       font-size: 14px;
@@ -60,10 +63,17 @@ width:601px;
     }
   }
 }
-.div-boton{
+.div-boton {
   text-align: center;
-  width:100%;
-  @media (min-width:1200px) {
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 206px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 440px;
+    padding-right: 163px;
+  }
+  @media (min-width: 1200px) {
     text-align: right;
     width: 601px;
   }
@@ -74,43 +84,42 @@ width:601px;
   font-weight: bolder;
 }
 
-.div-ajust{
-  display:flex;
+.div-ajust {
+  display: flex;
   flex-direction: column;
-  @media (min-width:1200px){
-  display:grid;
-  width:601px;
-  grid-template-columns:392px 44px 162px;
-  grid-template-rows:19px 65px;
+  @media (min-width: 1200px) {
+    display: grid;
+    width: 601px;
+    grid-template-columns: 392px 44px 162px;
+    grid-template-rows: 19px 65px;
   }
-  &__email{
-    @media(min-width:1200px){
-    width:48px;
-    grid-column:1/2;
-    grid-row:1/2;
+  &__email {
+    @media (min-width: 1200px) {
+      width: 48px;
+      grid-column: 1/2;
+      grid-row: 1/2;
     }
   }
-  &__input-email{
-    @media (min-width:1200px){
-    width:392px;
-    grid-column:1/2;
-    grid-row:2/3;
+  &__input-email {
+    @media (min-width: 1200px) {
+      width: 392px;
+      grid-column: 1/2;
+      grid-row: 2/3;
     }
   }
-  &__tel{
-    @media (min-width:1200px){
-    width:57px;  
-    grid-column:3/4;
-    grid-row:1/2;
+  &__tel {
+    @media (min-width: 1200px) {
+      width: 57px;
+      grid-column: 3/4;
+      grid-row: 1/2;
     }
   }
-  &__input-tel{
-    @media (min-width:1200px){
-      width:162px;
-      grid-column:3/4;
-      grid-row:2/3;
-      min-width:0;
+  &__input-tel {
+    @media (min-width: 1200px) {
+      width: 162px;
+      grid-column: 3/4;
+      grid-row: 2/3;
+      min-width: 0;
     }
   }
 }
-
