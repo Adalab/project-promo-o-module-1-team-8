@@ -8,11 +8,20 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  @media(min-width:1200px){
+    width:601px;
+    align-items: center;
+  }
   &__label {
     font-size: 14px;
     color: $colorTextPpal;
     line-height: 19px;
     font-family: $fontText;
+  @media(min-width:1200px){
+display:flex;
+align-items: flex-end;
+width:601px;
+    }
   }
   &__input {
     min-width: 290px;
@@ -20,6 +29,9 @@
     border: solid #b8b8b9 1px;
     padding-left: 15px;
     margin: 7px 0 13px;
+  @media(min-width:1200px){
+      width:601px;
+    }
     &::placeholder {
       font-size: 14px;
       color: #b8b8b9;
@@ -34,7 +46,7 @@
     }
     &--btn {
       margin-top: 30px;
-      width: 290px;
+      width: 100%;
       align-self: center;
       text-transform: uppercase;
       font-family: $fontText;
@@ -48,8 +60,57 @@
     }
   }
 }
+.div-boton{
+  text-align: center;
+  width:100%;
+  @media (min-width:1200px) {
+    text-align: right;
+    width: 601px;
+  }
+}
 
 .star {
   color: $colorScnd;
   font-weight: bolder;
 }
+
+.div-ajust{
+  display:flex;
+  flex-direction: column;
+  @media (min-width:1200px){
+  display:grid;
+  width:601px;
+  grid-template-columns:392px 44px 162px;
+  grid-template-rows:19px 65px;
+  }
+  &__email{
+    @media(min-width:1200px){
+    width:48px;
+    grid-column:1/2;
+    grid-row:1/2;
+    }
+  }
+  &__input-email{
+    @media (min-width:1200px){
+    width:392px;
+    grid-column:1/2;
+    grid-row:2/3;
+    }
+  }
+  &__tel{
+    @media (min-width:1200px){
+    width:57px;  
+    grid-column:3/4;
+    grid-row:1/2;
+    }
+  }
+  &__input-tel{
+    @media (min-width:1200px){
+      width:162px;
+      grid-column:3/4;
+      grid-row:2/3;
+      min-width:0;
+    }
+  }
+}
+

@@ -33,23 +33,32 @@
 
   <body>
     <header class="header">
-        <div class="container_nav">
-            <h1 class="nombre_header">Las 4 fantásticas</h1>
-            <nav>
-                <ul class="ul_nav_header">
-                    <li class="menu_ul_nav_header"><a href="./home.html#Equipo">Equipo</a></li>
-                    <li class="menu_ul_nav_header"><a href="./home.html#Quienes_Somos">Quienes somos</a></li>
-                    <li class="menu_ul_nav_header"><a href="./contact.html" target="_blank">Contacto</a></li>
-                </ul>
-            </nav>
+      <div class="container_nav">
+        <h1 class="nombre_header">Las 4 fantásticas</h1>
+        <nav>
+          <ul class="ul_nav_header">
+            <li class="menu_ul_nav_header">
+              <a href="#Equipo">Equipo</a>
+            </li>
+            <li class="menu_ul_nav_header">
+              <a href="#Quienes_Somos">Quienes somos</a>
+            </li>
+            <li class="menu_ul_nav_header">
+              <a href="./contact.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="conteiner_img">
+        <img class="altavoz" src="./assets/images/hero.png" alt="altavoz" />
+        <div class="rectangulo">
+          <p class="lema">
+            Bajo la lluvia, sol y sereno, junto a GitHub siempre lucharemos
+          </p>
         </div>
-        <div class="conteiner_img">
-            <img class="altavoz" src="./assets/images/hero.png" Alt="altavoz">
-            <div class="rectangulo">
-                <p class="lema">Bajo la lluvia, sol y sereno, junto a GitHub siempre lucharemos</p>
-            </div>
-        </div>
+      </div>
     </header>
+
     
     <main>
 
@@ -89,125 +98,128 @@
                 </section>
             </section>
         </section>
-        <section class="who_we_are">
-          <h2 class="who_we_are__title">Quiénes somos</h2>
+        <div class="container_who_we_are" id="Quienes_Somos">
+          <section class="who_we_are">
+            <h2 class="who_we_are__title">Quiénes somos</h2>
 
-          <article class="who_we_are__member1">
-            <img src="./assets/images/AnaWW.jpg" alt="Fotografía de Ana" class="member_img" />
-            <section class="who_we_are__member1--info">
-              <h4 class="member_title">Ana de la Jara</h4>
-              <p class="p"> Después de años como agente de viajes, decidí dar un cambio radical y estudiar para ser futura programadora, si css me lo permite.</p>
-              <ul class="ul_rrss">
-                <li>
-                  <a href="https://twitter.com/anita83_" target="_blank"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="https://www.linkedin.com/in/ana-de-la-jara/" target="_blank"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="https://github.com/AnadelaJara" target="_blank"
-                    ><i class="fab fa-github-alt"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="mailto:anadelajara@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                </li>
-              </ul>
-            </section>
-          </article>
-
-
-          <article class="who_we_are__member2">
-            <img src="./assets/images/mariana.jpg" alt="Fotografía de Mariana" class="member_img" />
-            <section class="who_we_are__member2--info">
-              <h4 class="member_title">Mariana Viana</h4>
-              <p class="p">Un nuevo pais, un nuevo comienzo y que es mejor que reinventarse, de cuentas y números a código y acertijos.</p>
-              <ul class="ul_rrss">
-                <li>
-                  <a href="https://twitter.com/vianam92" target="_blank"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="https://www.linkedin.com/in/mariana-viana-rodriguez-19871a195/" target="_blank"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="https://github.com/vianam92" target="_blank"
-                    ><i class="fab fa-github-alt"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="mailto:vianarodriguezm@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                </li>
-              </ul>
-            </section>
-          </article>
+            <article class="who_we_are__member1">
+              <img src="./assets/images/AnaWW.jpg" alt="Fotografía de Ana" class="member_img" />
+              <section class="who_we_are__member1--info">
+                <h4 class="member_title">Ana de la Jara</h4>
+                <p class="p"> Después de años como agente de viajes, decidí dar un cambio radical y estudiar para ser futura programadora, si css me lo permite.</p>
+                <ul class="ul_rrss">
+                  <li>
+                    <a href="https://twitter.com/anita83_" target="_blank"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="https://www.linkedin.com/in/ana-de-la-jara/" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="https://github.com/AnadelaJara" target="_blank"
+                      ><i class="fab fa-github-alt"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="mailto:anadelajara@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </section>
+            </article>
 
 
-          <article class="who_we_are__member3">
-            <img src="./assets/images/sandraM1.jpg" alt="Fotografía de Sandra" class="member_img" />
-            <section class="who_we_are__member3--info">
-              <h4 class="member_title">Sandra Gutiérrez</h4>
-              <p class="p"> Pedagoga de profesión pero con el html en las venas. Tras años luchando en las trincheras de un sistema educativo moribuno, decidí cambiar las adaptaciones curriculares por una misión trascendental: encontrar el merge perfecto.</p>
-              <ul class="ul_rrss">
-                <li>
-                  <a href="https://twitter.com/SandSan12" target="_blank"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="https://www.linkedin.com/in/sandraguti%C3%A9rrez/" target="_blank"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="https://github.com/Sandra-Gutierrez" target="_blank"
-                    ><i class="fab fa-github-alt"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="mailto:sandsan12@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                </li>
-              </ul>
-            </section>
-          </article>
+            <article class="who_we_are__member2">
+              <img src="./assets/images/mariana.jpg" alt="Fotografía de Mariana" class="member_img" />
+              <section class="who_we_are__member2--info">
+                <h4 class="member_title">Mariana Viana</h4>
+                <p class="p">Un nuevo pais, un nuevo comienzo y que es mejor que reinventarse, de cuentas y números a código y acertijos.</p>
+                <ul class="ul_rrss">
+                  <li>
+                    <a href="https://twitter.com/vianam92" target="_blank"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="https://www.linkedin.com/in/mariana-viana-rodriguez-19871a195/" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="https://github.com/vianam92" target="_blank"
+                      ><i class="fab fa-github-alt"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="mailto:vianarodriguezm@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </section>
+            </article>
 
 
-          <article class="who_we_are__member4">
-            <img src="./assets/images/profile-sara.jpg" alt="Fotografía de Sara" class="member_img" />
-            <section class="who_we_are__member4--info">
-              <h4 class="member_title">Sara Palomo</h4>
-              <p class="p"> Doctora en ecología especializada en agroecología empezando una nueva y emocionante etapa. Si necesitas una programadora front-end junior que además sepa sobre plagas del tomate, soy tu heroína. ¡De los huertos a los DevTools!</p>
-              <ul class="ul_rrss">
-                <li>
-                  <a href="https://twitter.com/sarapalcam" target="_blank"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="https://www.linkedin.com/in/sara-palomo-campesino-4275b2117/" target="_blank"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="https://github.com/sarapalcam" target="_blank"
-                    ><i class="fab fa-github-alt"></i
-                  ></a>
-                </li>
-                <li class="separador_punto">
-                  <a href="mailto:sara.pal.cam@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                </li>
-              </ul>
-            </section>
-          </article>
+            <article class="who_we_are__member3">
+              <img src="./assets/images/sandraM1.jpg" alt="Fotografía de Sandra" class="member_img" />
+              <section class="who_we_are__member3--info">
+                <h4 class="member_title">Sandra Gutiérrez</h4>
+                <p class="p"> Pedagoga de profesión pero con el html en las venas. Tras años luchando en las trincheras de un sistema educativo moribuno, decidí cambiar las adaptaciones curriculares por una misión trascendental: encontrar el merge perfecto.</p>
+                <ul class="ul_rrss">
+                  <li>
+                    <a href="https://twitter.com/SandSan12" target="_blank"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="https://www.linkedin.com/in/sandraguti%C3%A9rrez/" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="https://github.com/Sandra-Gutierrez" target="_blank"
+                      ><i class="fab fa-github-alt"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="mailto:sandsan12@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </section>
+            </article>
 
-        </section>
+
+            <article class="who_we_are__member4">
+              <img src="./assets/images/profile-sara.jpg" alt="Fotografía de Sara" class="member_img" />
+              <section class="who_we_are__member4--info">
+                <h4 class="member_title">Sara Palomo</h4>
+                <p class="p"> Doctora en ecología especializada en agroecología empezando una nueva y emocionante etapa. Si necesitas una programadora front-end junior que además sepa sobre plagas del tomate, soy tu heroína. ¡De los huertos a los DevTools!</p>
+                <ul class="ul_rrss">
+                  <li>
+                    <a href="https://twitter.com/sarapalcam" target="_blank"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="https://www.linkedin.com/in/sara-palomo-campesino-4275b2117/" target="_blank"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="https://github.com/sarapalcam" target="_blank"
+                      ><i class="fab fa-github-alt"></i
+                    ></a>
+                  </li>
+                  <li class="separador_punto">
+                    <a href="mailto:sara.pal.cam@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </section>
+            </article>
+
+          </section>
+        </div>
+
 
     </main>
     <footer class="footer">
