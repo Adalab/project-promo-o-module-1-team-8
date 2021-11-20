@@ -57,6 +57,10 @@ width:601px;
       border-radius: 4px;
       border: none;
       padding: 0;
+      @media (min-width:1200px) {
+        text-align: center;
+        width: 278px;
+      }
     }
   }
 }
