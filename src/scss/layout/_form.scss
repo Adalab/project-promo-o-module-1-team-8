@@ -48,6 +48,7 @@
       padding-top: 7px;
     }
     &--btn {
+      min-width: 206px;
       margin-top: 30px;
       width: 100%;
       align-self: center;
@@ -60,7 +61,10 @@
       border-radius: 4px;
       border: none;
       padding: 0;
-      @media (min-width:1200px) {
+      @media (min-width: 768px) {
+        width: 206px;
+      }
+      @media (min-width: 1200px) {
         text-align: center;
         width: 278px;
       }
@@ -71,7 +75,6 @@
   text-align: center;
   width: 100%;
   @media (min-width: 768px) {
-    width: 206px;
     display: flex;
     justify-content: flex-end;
     padding-left: 440px;
@@ -79,6 +82,7 @@
   }
   @media (min-width: 1200px) {
     text-align: right;
+    padding: 0;
     width: 601px;
   }
 }
