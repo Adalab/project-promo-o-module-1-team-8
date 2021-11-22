@@ -33,6 +33,10 @@
   @media all and (min-width: 768px) {
     padding: 0 45px 44px 45px;
   }
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 
 /***FIN Home Main Section 1***/
@@ -104,5 +108,12 @@
   }
   .strengths-text {
     padding-right: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-force {
+    width: 1300px;
+    margin: 0 auto;
   }
 }
