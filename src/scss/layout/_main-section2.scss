@@ -89,8 +89,10 @@
   object-fit: cover;
   z-index: 998;
   position: absolute;
+  transition: visibility ease 3s, opacity ease 1.5s;
   &:hover {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
   }
   @media (min-width: 768px) {
     min-width: 206px;
