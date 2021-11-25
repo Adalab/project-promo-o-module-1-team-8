@@ -132,6 +132,11 @@
   color: $colorPpal;
   font-size: 20px;
   padding: 0px 10px;
+  transition: font-size ease 0.3s, color ease 0.3s;
+  &:hover{
+    font-size: 22px;
+    color: #14d9c4;
+  }
   @media (min-width: 768px) {
     font-size: 16px;
     line-height: 30px;

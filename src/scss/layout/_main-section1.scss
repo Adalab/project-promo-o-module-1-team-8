@@ -9,6 +9,7 @@
   padding: 15px;
   position: relative;
   width: 100%;
+  margin-top: 30px;
   &-title {
     font-family: "Rubik", sans-serif;
     color: #14d9c4;
@@ -55,7 +56,7 @@
     width: 30px;
     height: 30px;
     background-color: white;
-    position: relative;
+    position: absolute;
     align-self: center;
     transform: translate(0, -150%) rotate(45deg);
   }
@@ -68,6 +69,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media all and (min-width: 768px) {
+    padding-right: 50px;
+  }
 }
 
 .str-weak-title {
@@ -87,16 +91,19 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  margin: 0 15px;
   @media all and (min-width: 768px) {
-    width: 388px;
+    max-width: 388px;
   }
 }
 .weakness {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   @media all and (min-width: 768px) {
     margin-top: 0;
+    padding-left: 50px;
   }
 }
 
@@ -104,16 +111,12 @@
   .section-force {
     display: flex;
     justify-content: space-around;
-    height: 250px;
-  }
-  .strengths-text {
-    padding-right: 10px;
+    padding-bottom: 30px;
   }
 }
 
 @media (min-width: 1200px) {
   .section-force {
-    width: 1300px;
     margin: 0 auto;
   }
 }
