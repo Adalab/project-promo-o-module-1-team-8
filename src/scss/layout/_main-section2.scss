@@ -93,7 +93,14 @@
   &:hover {
     visibility: hidden;
     opacity: 0;
+    @media (max-width: 768px){
+      visibility: unset;
+      opacity: unset;
+    } 
   }
+  @media (max-width: 768px){
+    transition: none;
+  } 
   @media (min-width: 768px) {
     min-width: 206px;
     height: 206px;
