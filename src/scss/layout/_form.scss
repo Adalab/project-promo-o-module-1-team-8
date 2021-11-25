@@ -61,6 +61,7 @@
       border-radius: 4px;
       border: none;
       padding: 0;
+      cursor: pointer;
       @media (min-width: 768px) {
         width: 206px;
       }
@@ -74,6 +75,7 @@
 .div-boton {
   text-align: center;
   width: 100%;
+
   @media (min-width: 768px) {
     display: flex;
     justify-content: flex-end;

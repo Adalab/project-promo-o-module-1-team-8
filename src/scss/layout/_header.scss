@@ -90,10 +90,13 @@ a {
 .img-hero {
   width: 100%;
   height: 405px;
-  background-image: url(../images/hero.png);
+  background-image: url(../images/hero_home_mobile.png);
   background-size: cover;
   background-position: center;
   position: absolute;
+  @media (min-width: 768px) {
+    background-image: url(../images/hero_home_tablet.png);
+  }
 }
 
 .img-hero-contact {
@@ -113,39 +116,39 @@ a {
 .rectangulo {
   width: 90%;
   height: 80px;
-  margin: 270px 20px 0px;
+  margin: 387px 20px 45px;
   padding: 14px 15px 16px;
   background-color: $colorTextHeader;
   position: absolute;
-  margin-top: 387px;
+
   @media all and (min-width: 768px) {
-    width: 60%;
-    margin: 330px 281px 0px 46px;
-    padding: 14px 15px 16px;
-    position: absolute;
+    width: 441px;
+    padding: 15px 30px;
+    margin: 330px 281px 45px 46px;
     opacity: 0.8;
   }
   @media all and (min-width: 1200px) {
-    width: 60%;
-    margin: 325px 488px 0px 138px;
-    padding: 14px 15px 16px;
-    position: absolute;
-    opacity: 0.8;
+    width: 574px;
+    margin: 325px 488px 45px 138px;
+    padding: 10px 30px;
   }
 }
 
 .lema {
-  width: 260px;
   height: 50px;
   margin: 0 auto;
   background-color: $colorTextHeader;
   font-family: $fontText;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.39;
+  line-height: 24px;
   letter-spacing: normal;
   color: $colorTextScnd;
-  text-align: center;
+  text-align: left;
+  @media all and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }
