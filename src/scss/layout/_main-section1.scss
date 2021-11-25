@@ -69,6 +69,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media all and (min-width: 768px) {
+    padding-right: 50px;
+  }
 }
 
 .str-weak-title {
@@ -100,6 +103,7 @@
   align-items: center;
   @media all and (min-width: 768px) {
     margin-top: 0;
+    padding-left: 50px;
   }
 }
 
@@ -109,14 +113,10 @@
     justify-content: space-around;
     padding-bottom: 30px;
   }
-  .strengths-text {
-    padding-right: 10px;
-  }
 }
 
 @media (min-width: 1200px) {
   .section-force {
-    width: 1300px;
     margin: 0 auto;
   }
 }
