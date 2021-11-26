@@ -37,7 +37,6 @@ html {
   background-color: $colorPpal;
   width: 100%;
   padding: 15px 80px;
-
   @media all and (min-width: 768px) {
     height: 60px;
     width: 50%;
@@ -83,8 +82,14 @@ html {
     padding: 0px 0px 0px 20px;
   }
 }
+.menu_ul_nav_header:hover a{
+    transform: scale(1.2);
+    color:#14d9c4;
+  }
+  
 a {
   color: $colorTextHeader;
+  transition:transform ease 1.5s ,color ease 1s;
 }
 
 .img-hero {
@@ -152,3 +157,37 @@ a {
     line-height: 30px;
   }
 }
+
+//animacion del 4
+@keyframes cuatro{
+  0%{
+    overflow: hidden;
+    transform: translateX(1200px)}
+  25%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(0.8);
+  }
+  75%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.four{
+  animation: cuatro 6s linear;
+  transition:transform ease 1.5s ,color ease 1s;
+  &:hover{
+  transform: scale(1.2);
+   color:#14d9c4;
+  }
+}
+
+  
+
+
+
+
+
