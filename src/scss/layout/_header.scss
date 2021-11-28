@@ -82,14 +82,17 @@ html {
     padding: 0px 0px 0px 20px;
   }
 }
-.menu_ul_nav_header:hover a{
-    transform: scale(1.2);
-    color:#14d9c4;
+.menu_ul_nav_header:hover a {
+  transform: scale(1.2);
+  color: $colorPpal;
+  @media (min-width: 768px) {
+    color: $colorScnd;
   }
-  
+}
+
 a {
   color: $colorTextHeader;
-  transition:transform ease 1.5s ,color ease 1s;
+  transition: transform ease 1.5s, color ease 1s;
 }
 
 .img-hero {
@@ -159,35 +162,29 @@ a {
 }
 
 //animacion del 4
-@keyframes cuatro{
-  0%{
+@keyframes cuatro {
+  0% {
     overflow: hidden;
-    transform: translateX(1200px)}
-  25%{
+    transform: translateX(1200px);
+  }
+  25% {
     transform: scale(1);
   }
-  50%{
+  50% {
     transform: scale(0.8);
   }
-  75%{
+  75% {
     transform: scale(1.2);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }
-.four{
+.four {
   animation: cuatro 6s linear;
-  transition:transform ease 1.5s ,color ease 1s;
-  &:hover{
-  transform: scale(1.2);
-   color:#14d9c4;
+  transition: transform ease 1.5s, color ease 1s;
+  &:hover {
+    transform: scale(1.2);
+    color: #14d9c4;
   }
 }
-
-  
-
-
-
-
-
